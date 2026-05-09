@@ -1,0 +1,8 @@
+# run_v3.py: CUDA-capable NumPy + Numba + NVTX annotations.
+# You still need an NVIDIA driver + CUDA runtime/toolkit compatible with your Numba build.
+#
+# The `kernels` import is the local package kernels.py in this repo — not a PyPI dependency.
+
+numpy>=1.21
+numba>=0.58
+nvtx>=0.2.11
